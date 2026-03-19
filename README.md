@@ -23,28 +23,6 @@ A practical Python security tool for university-level Computer Network Security 
   - Username/email local-part detection
 - Final score and classification (`Weak`, `Medium`, `Strong`)
 
-## Improved Folder Structure
-
-```text
-password-analyzer/
-├── main.py
-├── analyzer.py                 # Backward-compatible re-export
-├── utils.py                    # Backward-compatible re-export
-├── common_passwords.txt        # Legacy location (still supported)
-├── data/
-│   └── common_passwords.txt    # Preferred data location
-├── password_analyzer/
-│   ├── __init__.py
-│   ├── analyzer.py
-│   ├── cli.py
-│   ├── tui.py
-│   └── utils.py
-├── scripts/
-│   ├── interactive.sh
-│   └── quick_check.sh
-└── README.md
-```
-
 ## Installation
 
 1. Install Python 3.10+.
