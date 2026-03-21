@@ -132,24 +132,6 @@ Recommendations:
 - Use at least 8 characters; 12+ is recommended.
 ```
 
-### Example 2
-
-Command:
-
-```bash
-python main.py check --password 'admin123' --username 'admin'
-```
-
-Output (abridged):
-
-```text
-Score: 4/10
-Strength: Weak
-Recommendations:
-- Password appears in common_passwords.txt and is high-risk.
-- Password contains the provided username/email local-part.
-```
-
 ## Error Handling
 
 - Missing required arguments (handled by `argparse`)
