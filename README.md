@@ -96,7 +96,7 @@ Final classification:
 
 ## Example Outputs
 
-### Example 1
+### Example :
 
 Command:
 
